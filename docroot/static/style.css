@@ -1,0 +1,18 @@
+body { font-family: Segoe UI, Arial, sans-serif; margin: 0; background: #f5f6fa; color: #222; }
+.navbar { background: #2d3a8c; padding: 14px 24px; display: flex; gap: 20px; align-items: center; }
+.navbar .brand { color: #fff; font-weight: 700; margin-right: auto; font-size: 1.2em; }
+.navbar a { color: #dfe3ff; text-decoration: none; padding: 6px 12px; border-radius: 6px; }
+.navbar a:hover { background: rgba(255,255,255,.15); }
+.navbar a.active { background: #fff; color: #2d3a8c; font-weight: 600; }
+.page { max-width: 720px; margin: 30px auto; background: #fff; padding: 24px 32px;
+        border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+form { display: flex; flex-direction: column; gap: 8px; }
+label { font-weight: 600; margin-top: 6px; }
+input, textarea { padding: 10px; border: 1px solid #bbb; border-radius: 6px; font: inherit; }
+button { margin-top: 12px; padding: 10px; border: 0; border-radius: 6px; background: #2d3a8c;
+         color: #fff; font-size: 1em; cursor: pointer; }
+button:hover { background: #1f2a66; }
+.status { margin-top: 14px; padding: 0; font-weight: 600; }
+.status.success { color: #1b7a34; }
+.status.error { color: #c0392b; }
+.status.pending { color: #666; }
